@@ -1,0 +1,44 @@
+name: spendwise
+description: "SpendWise – Expense Tracker"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  fl_chart: ^0.68.0
+  intl: ^0.19.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.4
+  image_picker: ^1.0.7
+  cupertino_icons: ^1.0.8
+  # uuid: ^4.5.1   # <- optional. remove if not used
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+# ---------- Launcher icon config (TOP-LEVEL!) ----------
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#121212"
+  adaptive_icon_foreground: "assets/icons/app_icon.png"
+  # (optional) for Android 13 themed icons:
+  # adaptive_icon_monochrome: "assets/icons/app_icon_monochrome.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/app_icon.png
+            # <- add this folder if you’re using bank logos
