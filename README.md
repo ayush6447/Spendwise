@@ -1,16 +1,33 @@
-# spendwise
+💰 SpendWise – Expense Tracker App
 
-A new Flutter project.
+SpendWise is a modern **Flutter Expense Tracker App** with a clean dark UI.  
+It helps you track income, expenses, and budgets with interactive charts and a simple workflow.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- 📊 **Dashboard Overview**
+  - Total balance display
+  - Monthly income & expenses summary
+  - Spending trends (bar chart)
+  - Category-wise spending
 
-A few resources to get you started if this is your first Flutter project:
+- 📝 **Add Transactions**
+  - Add income/expense with amount, date, category, and notes
+  - Simple and clean input forms
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📅 **History & Reports**
+  - Transaction history with filters
+  - Weekly/monthly reports
+  - Visual insights with charts
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 💡 **Budget Management**
+  - Set and track monthly budget
+  - Alerts when exceeding budget
+
+- 🎨 **UI/UX**
+  - Dark theme with neon cyan highlights
+  - Smooth animations
+  - Bottom navigation & floating action button
+
+---
